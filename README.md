@@ -72,9 +72,9 @@ TestBaseModelDocs class:
 * `def test_bm_func_docstrings(self)` - Test for the presence of docstrings in BaseModel methods
 
 TestBaseModel class:
-* `def test_is_base_model(self)` - Test that the instatiation of a BaseModel works
-* `def test_created_at_instantiation(self)` - Test created_at is a pub. instance attribute of type datetime
-* `def test_updated_at_instantiation(self)` - Test updated_at is a pub. instance attribute of type datetime
+* `def test_is_base_model(self)` - Test that the instantiation of a BaseModel works
+* `def test_created_at_instantiation(self)` - Test created_at is a pub. an instance attribute of type datetime
+* `def test_updated_at_instantiation(self)` - Test updated_at is a pub. an instance attribute of type datetime
 * `def test_diff_datetime_objs(self)` - Test that two BaseModel instances have different datetime objects
 
 [/test_models/test_amenity.py](/tests/test_models/test_amenity.py) - Contains the TestAmenityDocs class:
@@ -125,6 +125,13 @@ TestBaseModel class:
 * `def test_pep8_conformance_test_user(self)` - Test that tests/test_models/test_user.py conforms to PEP8
 * `def test_user_module_docstring(self)` - Test for the user.py module docstring
 * `def test_user_class_docstring(self)` - Test for the User class docstring
+  
+
+## New Features in AirBnB_clone_v3
+
+- Enhanced RESTful API functionalities
+- Improved code structure and readability
+- Additional test cases for better coverage
 
 
 ## Examples of use
